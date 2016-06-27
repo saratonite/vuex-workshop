@@ -6,8 +6,11 @@ const state = {
 }
 
 const mutations = {
-	INCREMENT (state) {
+	COUNTER_INCREMENT (state) {
 		state.count++;
+	},
+	COUNTER_DECREMENT (state){
+		state.count--;
 	}
 }
 

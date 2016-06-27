@@ -4,7 +4,10 @@ import router from'./routes'
 
 import store from './store'
 
-console.log(store);
+/* Import Global Styles*/
+
+
+
 
 /* Import Components */
 
