@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 const state = {
-	count:54
+	count:10
 }
 
 const mutations = {

@@ -6,6 +6,11 @@ import store from './store'
 
 /* Import Global Styles*/
 
+import gCSS from './css/main.css'
+
+import Navigation from './components/Navigation';
+
+
 
 
 
@@ -20,6 +25,7 @@ import store from './store'
 var app = Vue.extend({
 	store,
 	components:{
+		Navigation
 
 	}
 });
