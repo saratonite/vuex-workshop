@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 
 const state = {
-	count:10
+	count:0
 }
 
 const mutations = {
@@ -11,6 +11,9 @@ const mutations = {
 	},
 	COUNTER_DECREMENT (state){
 		state.count--;
+	},
+	COUNTER_UPDATE (state,value){
+		state.count = value;
 	}
 }
 

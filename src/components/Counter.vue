@@ -1,6 +1,6 @@
 <template>
 	<div class="counter">
-		<h4><span class="title">Likes</span><button @click="plus()">+</button> {{count}} <button @click="minus()">-</button> </h4>
+		<h4><span class="title">Likes</span><button @click="plus()">+</button> <span class="digit">{{count}} </span> <button @click="minus()">-</button> </h4>
 	</div>
 </template>
 <script>
@@ -10,6 +10,9 @@
 				count:function(state){
 					return state.count;
 				}
+			},
+			actions:{
+				
 			}
 		},
 		methods:{
@@ -33,9 +36,16 @@
 		box-sizing: border-box;
 		border:1px solid #f56;
 		display: inline-block;
-		padding:1px 5px;
+		padding:5px 5px;
+		border-radius: 3px;
 	}
 	.title{
-		padding:1px 5px
+		padding:1px 5px;
+		width:100px;
+	}
+	.digit{
+		width: 4rem;
+		display: inline-block;
+		text-align: center;
 	}
 </style>

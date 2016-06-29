@@ -8,6 +8,7 @@ var router = new VueRouter();
 // Components
 
 import HomePage from './components/pages/Home'
+import ContactPage from './components/pages/Contact'
 
 
 router.map({
@@ -16,9 +17,7 @@ router.map({
 		component: HomePage
 	},
 	'/contact': {
-		component: {
-			template:"<h2>Contact</h2>"
-		}
+		component: ContactPage
 	}
 
 });
