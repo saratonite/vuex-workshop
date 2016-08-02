@@ -6,6 +6,8 @@ import store from './store'
 
 /* Import Global Styles*/
 
+var BootstrapCSS = require('../node_modules/bootstrap/dist/css/bootstrap.css'); 
+
 import gCSS from './css/main.css'
 
 import Navigation from './components/Navigation';

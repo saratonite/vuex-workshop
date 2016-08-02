@@ -16,6 +16,9 @@ router.map({
 	'/': {
 		component: HomePage
 	},
+	'/search':{
+
+	},
 	'/contact': {
 		component: ContactPage
 	}
